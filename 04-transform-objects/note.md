@@ -19,7 +19,7 @@
 
 ### 展示坐标轴
 ```js
-// 展示坐标轴  x=>red  y=>green  z=>blue
+// 展示坐标轴  x => red  y => green  z => blue
 const axesHelper = new THREE.AxesHelper();
 scene.add(axesHelper);
 ```
