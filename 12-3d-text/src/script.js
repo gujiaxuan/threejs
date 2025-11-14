@@ -32,7 +32,7 @@ matcapTexture.colorSpace = THREE.SRGBColorSpace
  */
 const fontLoader = new FontLoader();
 const font = await fontLoader.loadAsync('/fonts/helvetiker_regular.typeface.json')
-const textGeometry = new TextGeometry('Hello Three.js', {
+const textGeometry = new TextGeometry('我是莫松润的爸爸', {
     font,
     size: 0.5,
     depth: 0.2,
