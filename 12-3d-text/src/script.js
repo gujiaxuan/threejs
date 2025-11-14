@@ -32,7 +32,7 @@ matcapTexture.colorSpace = THREE.SRGBColorSpace
  */
 const fontLoader = new FontLoader();
 const font = await fontLoader.loadAsync('/fonts/851tegakizatsu_Regular.json')
-const textGeometry = new TextGeometry('我是莫松润的爸爸', {
+const textGeometry = new TextGeometry('我是杨广青 你爸爸', {
     font,
     size: 0.5,
     depth: 0.2,
